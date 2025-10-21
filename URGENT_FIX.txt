@@ -1,0 +1,85 @@
+═══════════════════════════════════════════════════════════
+  🔧 URGENT FIX FOR PYTHON 3.13 COMPATIBILITY
+═══════════════════════════════════════════════════════════
+
+PROBLEM: pygame won't install on Python 3.13 (distutils removed)
+
+SOLUTION: Use fix_python313.bat script
+
+═══════════════════════════════════════════════════════════
+  ⚡ FASTEST FIX (5 minutes)
+═══════════════════════════════════════════════════════════
+
+Run this command:
+    .\fix_python313.bat
+
+This will:
+  ✓ Clean up old installation
+  ✓ Create fresh virtual environment
+  ✓ Install all packages (without pygame)
+  ✓ Download spaCy + NLTK models
+
+═══════════════════════════════════════════════════════════
+  📋 MANUAL FIX (if script fails)
+═══════════════════════════════════════════════════════════
+
+1. Delete old venv:
+   Remove-Item -Recurse -Force venv
+
+2. Create new venv:
+   python -m venv venv
+
+3. Activate:
+   .\venv\Scripts\Activate.ps1
+
+4. Upgrade tools:
+   python -m pip install --upgrade pip setuptools wheel
+
+5. Install packages:
+   pip install -r requirements.txt
+
+6. Download models:
+   python -m spacy download en_core_web_sm
+   python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet')"
+
+═══════════════════════════════════════════════════════════
+  ❓ WHAT CHANGED?
+═══════════════════════════════════════════════════════════
+
+✅ REMOVED: pygame (incompatible with Python 3.13)
+✅ KEPT: playsound3 (works fine for audio)
+
+Impact:
+  ✓ Translation: WORKS
+  ✓ Context Analysis: WORKS  
+  ✓ GUI Popup: WORKS
+  ✓ Text-to-Speech: WORKS
+  ✓ Audio Playback: WORKS (via playsound3)
+
+═══════════════════════════════════════════════════════════
+  ✓ VERIFICATION
+═══════════════════════════════════════════════════════════
+
+After installation:
+   python test_installation.py
+
+Should see:
+   ✓ Passed: 15+
+   ✗ Failed: 0
+
+═══════════════════════════════════════════════════════════
+  🚀 RUN THE APP
+═══════════════════════════════════════════════════════════
+
+   python main.py
+
+Or:
+   .\run.bat
+
+═══════════════════════════════════════════════════════════
+  📖 MORE INFO
+═══════════════════════════════════════════════════════════
+
+See: PYTHON_313_FIX.md for detailed explanation
+
+═══════════════════════════════════════════════════════════

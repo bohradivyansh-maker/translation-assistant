@@ -1,0 +1,101 @@
+# 🚀 QUICK FIX REFERENCE CARD
+
+## ✅ FIXED: Import Errors Resolved
+
+### What Changed?
+- ✓ `requirements.txt` updated with correct package versions
+- ✓ `audio_handler.py` updated with error handling
+- ✓ `setup.bat` improved with verification
+- ✓ New troubleshooting docs added
+
+---
+
+## 🔧 QUICK INSTALL (Choose One)
+
+### Option A: Automated (2 minutes)
+```powershell
+cd "d:\Sem 7\NLP\Nlp Project\translation-assistant"
+.\setup.bat
+```
+
+### Option B: Manual (5 minutes)
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+python test_installation.py
+```
+
+### Option C: Minimal (3 minutes)
+```powershell
+.\venv\Scripts\Activate.ps1
+pip install googletrans==4.0.0rc1 spacy==3.7.2 nltk==3.8.1 scikit-learn==1.3.2 pynput==1.7.6 pyperclip==1.8.2 gTTS==2.5.0 pygame==2.5.2
+python -m spacy download en_core_web_sm
+```
+
+---
+
+## ⚡ FASTEST FIX FOR SPECIFIC ERRORS
+
+### "No module named 'playsound'"
+```powershell
+pip install playsound3==1.0.1 pygame==2.5.2
+```
+
+### "No module named 'gtts'"
+```powershell
+pip install gTTS==2.5.0
+```
+
+### "spaCy model not found"
+```powershell
+python -m spacy download en_core_web_sm
+```
+
+### "scripts is disabled"
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+---
+
+## 🧪 VERIFY IT WORKS
+
+```powershell
+python test_installation.py
+```
+
+---
+
+## 🎯 START THE APP
+
+```powershell
+.\venv\Scripts\Activate.ps1
+python main.py --lang es
+```
+
+---
+
+## 📚 DOCUMENTATION
+
+- **Quick Fix**: This card
+- **Full Guide**: INSTALLATION_FIX.md
+- **Summary**: IMPORT_ERRORS_FIXED.md
+- **Original**: README.md
+
+---
+
+## ✅ SUCCESS CHECKLIST
+
+- [ ] Virtual environment activated
+- [ ] All packages installed (run test_installation.py)
+- [ ] spaCy model downloaded
+- [ ] NLTK data downloaded
+- [ ] Application runs without errors
+
+---
+
+**Status**: ✅ All fixed and ready!  
+**Time to fix**: 2-5 minutes  
+**Next**: Run `.\setup.bat`

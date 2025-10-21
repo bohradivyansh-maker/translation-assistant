@@ -1,0 +1,36 @@
+# Core Translation and NLP Libraries
+# googletrans removed - incompatible with Python 3.13 (no 'cgi' module)
+# deep-translator is used as primary translation library
+deep-translator==1.11.4
+
+# NLP Processing
+spacy==3.8.7  # Updated from 3.7.2 for Python 3.13 compatibility
+nltk==3.8.1
+sentence-transformers==2.2.2
+
+# Text Processing and Analysis
+scikit-learn==1.3.2
+numpy==1.26.0
+pandas==2.1.3
+
+# GUI Framework - Tkinter is built-in with Python, no separate install needed
+Pillow==10.1.0
+
+# Hotkey and System Integration
+pynput==1.7.6
+pyperclip==1.8.2
+pyautogui==0.9.54
+
+# Text-to-Speech (PYTHON 3.13 COMPATIBLE)
+gTTS==2.5.0
+playsound3  # Latest version (3.2.8+) - auto-installs compatible version
+# pygame removed - causes distutils issues on Python 3.12+
+# Audio playback will use playsound3 only
+
+# Additional Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+langdetect==1.0.9
+
+# Language Detection
+charset-normalizer==3.3.2

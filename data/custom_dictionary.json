@@ -1,0 +1,28 @@
+{
+  "technical_terms": {
+    "algorithm": {
+      "es": "algoritmo",
+      "fr": "algorithme",
+      "de": "Algorithmus",
+      "hi": "एल्गोरिथ्म"
+    },
+    "database": {
+      "es": "base de datos",
+      "fr": "base de données",
+      "de": "Datenbank",
+      "hi": "डेटाबेस"
+    },
+    "machine learning": {
+      "es": "aprendizaje automático",
+      "fr": "apprentissage automatique",
+      "de": "maschinelles Lernen",
+      "hi": "मशीन लर्निंग"
+    }
+  },
+  "user_defined": {},
+  "domains": {
+    "technical": ["algorithm", "code", "function", "variable", "database", "API", "server", "client"],
+    "casual": ["hello", "thanks", "bye", "please", "sorry"],
+    "formal": ["pursuant", "hereby", "aforementioned", "whereas", "therefore"]
+  }
+}
