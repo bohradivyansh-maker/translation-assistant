@@ -6,6 +6,19 @@
 
 A sophisticated desktop translation tool that provides context-aware translations with Named Entity Recognition, domain detection, and translation memory. Built as an NLP university project demonstrating various Natural Language Processing techniques.
 
+---
+
+## 📚 Documentation
+
+**New to this project? Start here:**
+
+- 📖 **[Complete User Guide (HOW_TO_USE.md)](HOW_TO_USE.md)** - Comprehensive guide for both Python and non-Python users
+- ⚡ **[Quick Reference Card (QUICK_REFERENCE.md)](QUICK_REFERENCE.md)** - Printable one-page reference
+- 🚀 **[Quick Start Guide (QUICKSTART.md)](QUICKSTART.md)** - Get running in 5 minutes
+- 🎓 **[Developer Documentation](#)** - This README (technical details below)
+
+---
+
 ## 📋 Table of Contents
 
 - [Problem Statement](#problem-statement)
