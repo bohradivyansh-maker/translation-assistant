@@ -450,8 +450,7 @@ pyinstaller --onefile --windowed main.py
 
 ## 👥 Contributors
 
-- Your Name - [@yourusername](https://github.com/yourusername)
-- Team Member 2 - [@member2](https://github.com/member2)
+- Divyansh Bohra
 
 ## 📄 License
 
@@ -468,8 +467,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 For questions or feedback:
-- GitHub Issues: [Create an issue](https://github.com/yourusername/translation-assistant/issues)
-- Email: your.email@example.com
+- Email: bohradivyansh123@gmail.com
 
 ---
 
