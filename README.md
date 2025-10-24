@@ -12,7 +12,8 @@ A sophisticated desktop translation tool that provides context-aware translation
 
 **New to this project? Start here:**
 
-- 📖 **[Complete User Guide (HOW_TO_USE.md)](HOW_TO_USE.md)** - Comprehensive guide for both Python and non-Python users
+- � **[Download Standalone Executable (DOWNLOAD_INSTRUCTIONS.md)](DOWNLOAD_INSTRUCTIONS.md)** - **For non-Python users** - No installation needed!
+- �📖 **[Complete User Guide (HOW_TO_USE.md)](HOW_TO_USE.md)** - Comprehensive guide for both Python and non-Python users
 - ⚡ **[Quick Reference Card (QUICK_REFERENCE.md)](QUICK_REFERENCE.md)** - Printable one-page reference
 - 🚀 **[Quick Start Guide (QUICKSTART.md)](QUICKSTART.md)** - Get running in 5 minutes
 - 🎓 **[Developer Documentation](#)** - This README (technical details below)
