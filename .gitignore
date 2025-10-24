@@ -60,3 +60,18 @@ models/cache/
 temp/
 tmp/
 *.tmp
+
+# Build artifacts
+build/
+dist/
+portable_executable/
+*.spec
+TranslationAssistant-Standalone.zip
+
+# Old documentation (cleanup)
+*FIX*.md
+*SUCCESS*.md
+*READY*.md
+*SUBMISSION*.md
+UPLOAD_RELEASE_GUIDE.md
+cleanup_repository.bat
